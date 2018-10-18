@@ -4,14 +4,14 @@ const init = () => {
 	let browserWindow = new BrowserWindow({
 		show: true,
 		webPreferences: {
-			affinity: "process-1", // Run all windows & BrowserViews in the same process. This reduces memory usage and speeds up load time when creating new windows on tear out.
+			affinity: "process-1",
 		},
 	});
 
 	browserWindow.loadURL("file://invalid.html");
 	const browserView = new BrowserView({
 		webPreferences: {
-			affinity: "process-1", // Run all windows & BrowserViews in the same process. This reduces memory usage and speeds up load time when creating new windows on tear out.
+			affinity: "process-1",
 		}
 	});
 
