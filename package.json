@@ -1,0 +1,10 @@
+{
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/t57ser/electron-process-issue",
+  "devDependencies": {
+    "electron": "3.0.4"
+  }
+}
